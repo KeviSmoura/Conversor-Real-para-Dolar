@@ -1,11 +1,12 @@
-Algoritmo "Conversor"
+Algoritmo "Conversor de Real para DÃ³lar"
 
 Var
-   angulo, S: Real
+   reais, dolares: Real
+
 Inicio
-   Escreva ("Informe um angulo: ")
-   Leia (angulo)
-   S <- Sen(GraupRad(angulo))
-   Escreva ("O seno de", angulo, " é igual a", S)
-   
+   Escreva ("Quantos reais eu tenho? ")
+   Leia (reais)
+   dolares <- reais/5.77
+   Escreva ("Posso ter US$", dolares)
+
 Fimalgoritmo
